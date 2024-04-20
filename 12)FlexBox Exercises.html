@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>FlexBox Exercises</title>
+		<style>
+		
+		.flex-12a{
+			display: flex;
+			flex-direction: row;
+		}
+		
+		.div-12a-1{
+			background-color: lightblue;
+			width: 200px;
+		}
+		
+		.div-12a-2{
+			background-color: lightpink;
+			width 75px;
+		}
+		
+		.flex-12b{
+			display: flex;
+			flex-direction: row;
+		}
+		
+		.div-12b-1{
+			background-color: lightblue;
+			width: 75px;
+		}
+		
+		.div-12b-2{
+			background-color: lightpink;
+			flex: 1;
+		}
+		
+		.div-12b-3{
+			background-color: lightblue;
+			width: 75px;
+		}
+		
+		.flex-12c{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		.div-12c-1, .div-12c-2, .div-12c-3, .div-12c-4{
+			background-color: lightpink;
+		}
+		
+		.flex-12d{
+			display: flex;
+			flex-direction: row;
+			height: 50px;
+			border-width: 1px;
+			border-style: solid;
+			border-color: gray;
+			align-items: center;
+			justify-content: space-between;
+		}
+		
+		.div-12d-1{
+			background-color: lightpink;
+			
+		}
+		
+		.div-12d-2{
+			background-color: lightpink;
+		}
+		
+		.container{
+			border-color: rgb(200, 200, 200);
+			border-width: 1px;
+			border-radius: 4px;
+			border-style: solid;
+			width: 500px;
+		}
+		
+		.flex-12e{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			padding: 12px;
+			align-items: center;
+		}
+		
+		.button-12e{
+			background-color: rgb(80, 89, 240);
+			color: white;
+			border: none;
+			border-radius: 20px;
+			padding-top: 4px;
+			padding-bottom: 4px;
+			padding-left: 12px;
+			padding-right: 12px;
+			font-size: 14px;
+			font-weight: bold;
+		}
+		
+		.header{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			background-color: rgb(120, 80, 180);
+			align-items: center;
+			padding: 12px;
+			
+		}
+		
+		.page{
+			width: 100px;
+			border: none;
+			background-color: rgb(120, 80, 180);
+			color: white;
+			font-weight: bold;
+			font-size: 18px;
+			cursor: pointer;
+		}
+		
+		.searchbar{
+			width: 700px;
+			border: none;
+			border-radius: 15px;
+			height: 30px;
+			padding-left: 30px;
+			outline: none;
+		}
+		
+		.download{
+			width: 100px;
+			border-size: 1px;
+			border-color: white;
+			color: white;
+			background-color: rgb(120, 80, 180);
+			border-style: solid;
+			padding: 12px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+		
+		.friends-menu{
+			display: grid;
+			width: 500px;
+			grid-template-columns: 1fr;
+			row-gap: 10px;
+		}
+		
+		.friends-bar-row{
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+		}
+		
+		.photo{
+			width: 100px;
+		}
+		
+		.infos{
+			flex: 1;
+		}
+		
+		.button{
+			width: 150px;
+		}
+		
+		.friends-photo{
+			width: 50px;
+			height: 50px;
+			border-radius: 25px;
+			object-fit: cover;
+			margin-left: 25%;
+		}
+		
+		.name{
+			font-weight: bold;
+			margin-top: 4px;
+			margin-bottom: 4px;
+		}
+		
+		.profile-description, .popularity{
+			margin-top: 0px;
+			margin-bottom: 4px;
+			color: rgb(9, 96, 96);
+		}
+		
+		.follow-button{
+			background-color: rgb(55, 110, 220);
+			color: white;
+			border: none;
+			border-radius: 10px;
+			font-size: 16px;
+			font-weight: bold;
+			padding-left: 22px;
+			padding-right:	22px;
+			padding-top: 12px;
+			padding-bottom: 12px;
+			margin-left: 25%;
+			cursor: pointer;
+		}
+		
+		
+		</style>
+		
+	</head>
+	<body>
+		
+		<div><h1>12a.</h1>
+			<div class="flex-12a">
+				<div class="div-12a-1">200px</div>
+				<div class="div-12a-2">75px</div>
+			</div>
+		</div>
+		
+		<div><h1>12b.</h1>
+			<div class="flex-12b">
+				<div class="div-12b-1">item1</div>
+				<div class="div-12b-2">item2</div>
+				<div class="div-12b-3">item3</div>
+			</div>
+		</div>
+		
+		<div><h1>12c.</h1>
+			<div class="flex-12c">
+				<div class="div-12c-1">item1</div>
+				<div class="div-12c-2">item2</div>
+				<div class="div-12c-3">item3</div>
+				<div class="div-12c-4">item4</div>
+			</div>
+		</div>
+		
+		<div><h1>12d.</h1>
+			<div class="flex-12d">
+				<div class="div-12d-1">item1</div>
+				<div class="div-12d-2">item2</div>
+			</div>
+		</div>
+		
+		<div><h1>12e.</h1>
+			<div class="container">
+				<div class="flex-12e">
+					<p>Home</p>
+					<button class="button-12e">14</button>
+				</div>
+				<div class="flex-12e">
+					<p>Notifications</p>
+					<button class="button-12e">3</button>
+				</div>
+				<div class="flex-12e">
+					<p>Messages</p>
+					<button class="button-12e">5</button>
+				</div>
+			</div>
+		</div>
+		
+		<div><h1>12f.</h1>
+			<div class="header">
+				<button class="page">Home</button>
+				<input class="searchbar" type="text" placeholder="Search">
+				<button class="download">Download</button>
+			</div>
+		</div>
+		
+		<div><h1>12g.</h1>
+			<div class="friends-menu">
+				<div class="friends-bar-row">
+					<div class="photo">
+						<img class="friends-photo" src="pictures/cat1.jpg">
+					</div>
+					<div class="infos">
+							<p class="name">Oliver</p>
+							<p class="profile-description">The Cat</p>
+							<p class="popularity">Popular</p>
+					</div>
+					<div class="button">
+						<button class="follow-button">Follow</button>
+					</div>
+				</div>
+				<div class="friends-bar-row">
+					<div class="photo">
+						<img class="friends-photo" src="pictures/cat2.jpg">
+					</div>
+					<div class="infos">
+							<p class="name">Mimi</p>
+							<p class="profile-description">Sleepy Cat</p>
+							<p class="popularity">Popular</p>
+					</div>
+					<div class="button">
+						<button class="follow-button">Follow</button>
+					</div>
+				</div>
+				<div class="friends-bar-row">
+					<div class="photo">
+						<img class="friends-photo" src="pictures/dog1.jpg">
+					</div>
+					<div class="infos">
+							<p class="name">Rex</p>
+							<p class="profile-description">Happy Bulldog</p>
+							<p class="popularity">Popular</p>
+					</div>
+					<div class="button">
+						<button class="follow-button">Follow</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

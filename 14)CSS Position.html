@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CSS Position</title>
+		<style>
+		
+			body{
+				padding-top: 60px;
+				padding-left: 80px;
+				height: 3000px;
+			}
+			
+			.div1{
+				background-color: lightblue;
+				width: 200px;
+				height: 200px;
+				position: static;
+			}
+			
+			.div2{
+				background-color: lightpink;
+				width: 200px;
+				height: 200px;
+				position: relative;
+			}
+			
+			.header{
+				background-color: black;
+				color: white;
+				position: fixed;
+				top: 0px;
+				left: 0px;
+				right: 0px;
+				height: 50px;
+			}
+			
+			.sidebar{
+				background-color: green;
+				color: white;
+				position: fixed;
+				top: 50px;
+				bottom: 0px;
+				left: 0px;
+				width: 72px;
+			}
+			
+			.fourteen-a{
+				position: fixed;
+				bottom: 20px;
+				right: 20px;
+				background-color: black;
+				color: white;
+			}
+			
+			.fourteen-b{
+				position: fixed;
+				top: 0px;
+				bottom: 0px;
+				right: 0px;
+				width: 100px;
+				background-color: green;
+				color: white;
+			}
+		
+			.fourteen-c{
+				position: fixed;
+				top: 500px;
+				right: 200px;
+				left: 200px;
+				background-color: black;
+				height: 200px;
+			}
+			
+			.fourteen-d{
+				position: fixed;
+				top: 0px;
+				bottom: 0px;
+				right: 0px;
+				left: 0px;
+				background-color: rgba(0, 0, 0, 0.8);
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+			}
+			
+			.modal{
+				width: 300px;
+				background-color: white;
+				padding-top: 15px;
+				padding-bottom: 15px;
+				padding-left: 15px;
+				padding-right: 15px;
+				border-radius: 5px;
+			}
+			
+			.modal-title{
+				font-size: 24px;
+				font-weight: bold;
+				margio-bottom: 8px;
+			}
+			
+			.modal-second-line{
+				font-family: arial;
+				font-size: 12px;
+				margin-bottom: 12px;
+			}
+			
+			.fb-header{
+				display: flex;
+				background-color: white;
+				height: 50px;
+				position: fixed;
+				bottom: 0px;
+				left: 0px;
+				right: 0px;
+				justify-content: space-between;
+				align-items: center;
+				padding-left: 50px;
+				padding-right: 50px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				
+			}
+			
+			.fb-left{
+				display: flex;
+				align-items: center;
+			}
+			
+			
+			
+			.Profile-name{
+				display: inline-block;
+			}
+			
+			.profile-pic{
+				height: 40px;
+				width: 40px;
+				border-radius: 20px;
+				object-fit: cover;
+				margin-right: 10px;
+			}
+			
+			.Profile-name{
+				font-family: Arial;
+				font-weight: bold;
+				font-size: 16px;
+				letter-spacing: -0.5px;
+			}
+			
+			.add-button{
+				background-color: rgb(24, 119, 242);
+				color: white;
+				font-weight: bold;
+				border: none;
+				padding-top: 8px;
+				padding-bottom: 8px;
+				padding-left: 12px;
+				padding-right: 12px;
+				border-radius: 6px;
+				margin-right: 3px;
+			}
+			
+			.msg-button{
+				background-color: rgb(230, 230, 230);
+				border: none;
+				font-weight: bold;
+				padding-top: 8px;
+				padding-bottom: 8px;
+				padding-left: 12px;
+				padding-right: 12px;
+				border-radius: 6px;
+			}
+			
+			.abs{
+				position: absolute;
+				background-color: red;
+				color: white;
+				right: 100px;
+				top: 60px;
+			}
+			
+			.close-button{
+				position: absolute;
+				background-color: red;
+				color: white;
+				right: 0;
+				top: 0;
+			}
+			
+			.time{
+				position: absolute;
+				background-color: black;
+				color: white;
+				right: 10px;
+				bottom: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">header</div>
+		<div class="sidebar">
+			sidebar
+			<div class="close-button" >X</div>
+		</div>
+		<div class="abs" >absolute</div>
+		<div class="div1">div1</div>
+		<div class="div2">
+			div2
+			<div class="time" >5:00</div>
+		</div>
+		<div class="fourteen-a">bottom-right</div>
+		<div class="fourteen-b">right-sidebar</div>
+		<div class="fourteen-c"></div>
+		<div class="fourteen-d">
+			<div class="modal">
+				<div class="modal-title">Modal Title</div>
+				<div class="modal-second-line">This is a modal</div>
+				<button>Close</button>
+			</div>
+		</div>
+		<div class="fb-header">
+			<div class="fb-left">
+				<img class="profile-pic" src="pictures/cat1.jpg">
+				<div class="Profile-name">
+					Oliver Cat
+				</div>	
+			</div>
+			<div class="fb-right">
+				<button class="add-button">Add Friend</button>
+				<button class="msg-button">Message</button>
+			</div>
+		</div>
+	</body>
+</html>

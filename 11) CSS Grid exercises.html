@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Exercises 11</title>
+		<style>
+		
+			.div-11a{
+				display: grid;
+				grid-template-columns: 200px 75px;
+			}
+			
+			.div-11a-1{
+				background-color: lightblue;
+			}
+			
+			.div-11a-2{
+				background-color: lightpink;
+			}
+			
+			.div-11b{
+				display: grid;
+				grid-template-columns: 50px 1fr 75px;
+			}
+			
+			.div-11b-1{
+				background-color: lightblue;
+			}
+			
+			.div-11b-2{
+				background-color: lightpink;
+			}
+			
+			.div-11b-3{
+				background-color: lightblue;
+			}
+			
+			.div-11c{
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr 1fr;
+				column-gap: 20px;
+				row-gap: 10px;
+			}
+			
+			.div-11c-1, .div-11c-2, .div-11c-3, .div-11c-4{
+				background-color: lightpink;
+			}
+			
+			.profile-block{
+				width: 150px;
+				box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+				margin-right: 12px;
+			}
+
+			.profile-picture{
+				width: 150px;
+				height: 150px;
+				object-fit: cover;
+				margin-bottom: 0px;
+			}
+
+			.profile-name{
+				font-size: 16px;
+				font-weight: bold;
+				margin-top: 8px;
+				margin-bottom: 0px;
+				margin-left: 4px;
+			}
+			
+			.profile-info-mFriends-row{
+				display: grid;
+				grid-template-columns: 30px 1fr;
+				align-items: center;
+				padding-left: 4px;
+			}
+			
+			.account-picture{
+				width: 20px;
+				height: 20px;
+				border-radius: 13px;
+				object-fit: cover;
+				vertical-align: middle;
+			}
+
+			.friends-status{
+				margin-top: 4px;
+				margin-bottom: 0px;
+				font-size: 14px;
+				color: rgb(100, 100, 100);
+				margin-left: 4px;
+			}
+
+			.add-button{
+				margin-top: 8px;
+				border: none;
+				border-radius: 4px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				padding-left: 18px;
+				padding-right: 18px;
+				background-color: rgb(28, 100, 240);
+				color: white;
+				margin-left: 4px;
+				margin-bottom: 8px;
+			}
+			
+			.profile-info-name-row, .profile-info-mFriends-row, .profile-info-button-row{
+				margin-left: 0px;
+			}
+			
+			.grid{
+				display: grid;
+				grid-template-columns: 150px 150px 150px;
+				column-gap: 20px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		
+		<h1>11a.</h1>
+		
+			<div class="div-11a">
+				<div class="div-11a-1">200px</div>
+				<div class="div-11a-2">75px</div>
+			</div>
+			
+		<h1>11b.</h1>
+		
+			<div class="div-11b">
+				<div class="div-11b-1">50px</div>
+				<div class="div-11b-2">1fr</div>
+				<div class="div-11b-3">75px</div>
+			</div>
+			
+		<h1>11c.</h1>
+		
+			<div class="div-11c">
+				<div class="div-11c-1">col1</div>
+				<div class="div-11c-2">col2</div>
+				<div class="div-11c-3">col3</div>
+				<div class="div-11c-4">col4</div>
+				<div class="div-11c-1">col1</div>
+				<div class="div-11c-2">col2</div>
+				<div class="div-11c-3">col3</div>
+				<div class="div-11c-4">col4</div>
+			</div>
+			
+		<h1>11d.</h1>
+		
+			<div class="grid">
+			
+				<div class="profile-block">
+					<div class="picture-block">
+						<img class="profile-picture" src="pictures/cat1.jpg">
+					</div>
+					<div class="profile-info-name-row">
+						<p class="profile-name">Oliver</p>
+					</div>
+					<div class="profile-info-mFriends-row">
+						<div class="acc-image">
+							<img class="account-picture" src="pictures/dog2.jpg">
+						</div>
+						<div class="friends-space">
+							<p class="friends-status">2 mutual friends</p>
+						</div>
+					</div>
+					<div class="profile-info-button-row">
+						<button class="add-button">Add Friend</button>
+					</div>
+				</div>
+				
+				<div class="profile-block">
+					<div class="picture-block">
+						<img class="profile-picture" src="pictures/cat2.jpg">
+					</div>
+					<div class="profile-info-name-row">
+						<p class="profile-name">Mimi</p>
+					</div>
+					<div class="profile-info-mFriends-row">
+						<div class="acc-image">
+							<img class="account-picture" src="pictures/dog2.jpg">
+						</div>
+						<div class="friends-space">
+							<p class="friends-status">3 mutual friends</p>
+						</div>
+					</div>
+					<div class="profile-info-button-row">
+						<button class="add-button">Add Friend</button>
+					</div>
+				</div>
+				
+				<div class="profile-block">
+					<div class="picture-block">
+						<img class="profile-picture" src="pictures/dog1.jpg">
+					</div>
+					<div class="profile-info-name-row">
+						<p class="profile-name">Rex</p>
+					</div>
+					<div class="profile-info-mFriends-row">
+						<div class="acc-image">
+							<img class="account-picture" src="pictures/dog2.jpg">
+						</div>
+						<div class="friends-space">
+							<p class="friends-status">4 mutual friends</p>
+						</div>
+					</div>
+					<div class="profile-info-button-row">
+						<button class="add-button">Add Friend</button>
+					</div>
+				</div>
+			</div>
+	</body>
+</html>

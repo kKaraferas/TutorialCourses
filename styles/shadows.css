@@ -1,0 +1,249 @@
+.subscribe-button{
+	background-color: rgb(200, 0, 0);
+	color: white;
+	border: none;
+	height: 36px;
+	width: 105px;
+	border-radius: 2px;
+	cursor: pointer;
+	margin-right: 8px;
+	transition: opacity 0.15s;
+}
+
+.subscribe-button:hover {
+	opacity: 0.8;
+}
+
+.subscribe-button:active{
+	opacity: 0.4;
+}
+
+.join-button{
+	background-color: white;
+	border-color: rgb(41, 118, 211);
+	border-style: solid;
+	border-width: 1px;
+	color: rgb(41, 118, 211);
+	height: 36px;
+	width: 62px;
+	border-radius: 2px;
+	cursor: pointer;
+	transition: background-color 0.15s,
+		color 0.5s;
+}
+
+.join-button:hover{
+	background-color: rgb(41, 118, 211);
+	color: white;
+}
+
+.join-button:active{
+	opacity: 0.7;
+}
+
+.tweet-button{
+	background-color: rgb(2, 158, 255);
+	color: white;
+	border: none;
+	height: 36px;
+	width: 74px;
+	border-radius: 18px;
+	font-weight: bold;
+	font-size: 15px;
+	cursor: pointer;
+	margin-left: 8px;
+	transition: box-shadow 0.15s;
+}
+
+.tweet-button:hover{
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.uber-button{
+	background-color: black;
+	color: white;
+	border: none;
+	height: 30px;
+	width: 92px;
+	font-size:10px;
+	cursor: pointer;
+	margin-right: 8px;
+	transition: opacity 0.15s;
+}
+
+.uber-button:hover{
+	opacity: 0.8;
+}
+
+.Amazon-button{
+	background-color: rgb(255, 216, 20);
+	border: none;
+	height: 25px;
+	width: 150px;
+	border-radius: 18px;
+	font-size: 12px;
+	cursor: pointer;
+	margin-right: 8px;
+	transition: background-color 0.15s;
+}
+
+.Amazon-button:hover{
+	background-color: rgb(255, 207, 20);
+}
+
+.GitHub-button{
+	background-color: rgb(46, 164, 79);
+	border: none;
+	color: white;
+	height: 32px;
+	width: 85px;
+	border-radius: 4px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-right: 8px;
+	transition: box-shadow 0.15s;
+}
+
+.GitHub-button:hover{
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.Bootstrap-button1{
+	background-color: rgb(121, 82, 179);
+	border: none;
+	color: white;
+	height: 32px;
+	width: 90px;
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 10px;
+	cursor: pointer;
+	margin-right: 8px;
+	transition: background-color 0.15s;
+}
+
+.Bootstrap-button1:hover{
+	background-color: rgb(103, 55, 140);
+}
+	
+.Bootstrap-button2{
+	background-color: white;
+	border-color: rgb(108, 117, 125);
+	color: rgb(108, 117, 125);
+	border-width: 0.5px;
+	height: 32px;
+	width: 90px;
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 10px;
+	cursor: pointer;
+	margin-right: 8px;
+	transition: background-color 0.15s, color 0.15s;
+}
+
+.Bootstrap-button2:hover{
+	background-color: rgb(108, 117, 125);
+	color: white;
+}
+
+.LinkedIn-button1{
+	background-color: rgb(10, 102, 194);
+	border: none;
+	color: white;
+	height: 32px;
+	width: 220px;
+	border-radius: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-right: 8px;
+	transition: background-color 0.15s;
+}
+
+.LinkedIn-button1:hover{
+	background-color: rgb(6, 70, 130);
+}
+
+.LinkedIn-button2{
+	background-color: white;
+	border-color: rgb(10, 102, 194);
+	color: rgb(10, 102, 194);
+	border-width: 1px;
+	border-style: solid;
+	height: 32px;
+	width: 75px;
+	border-radius: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-right: 8px;
+	transition: background-color 0.15s, border-width 0.07s;
+}
+
+.LinkedIn-button2:hover{
+	background-color: rgb(100, 255, 255);
+	border-width: 1.7px;
+}
+
+.Amazon-button2{
+	background-color: rgb(255, 216, 20);
+	border: none;
+	color: black;
+	height: 27px;
+	width: 110px;
+	border-radius: 16px;
+	font-weight: bold;
+	font-size: 11px;
+	cursor: pointer;
+	margin-right: 6px;
+	transition: background-color 0.15s;
+}
+
+.Amazon-button2:hover{
+	background-color: rgb(255, 207, 20);
+}
+
+.Amazon-button2:active{
+	opacity: 0.5;
+}
+
+.Amazon-button3{
+	background-color: rgb(255, 164, 28);
+	border: none;
+	color: black;
+	height: 27px;
+	width: 110px;
+	border-radius: 16px;
+	font-weight: bold;
+	font-size: 11px;
+	cursor: pointer;
+	margin-right: 6px;
+}
+
+.Amazon-button3:hover{
+	background-color: rgb(240, 120, 10);
+}
+
+.Amazon-button3:active{
+	opacity: 0.5;
+}
+
+.title{
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.available{
+	color: rgb(0, 118, 0);
+	font-weight: bold;
+}
+
+.delivery{
+	font-weight: 600;
+}
+
+.return-link{
+	color: rgb(0, 113, 133);
+}
+
+.return-link:hover{
+	color: rgb(255, 80, 80);
+}

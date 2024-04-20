@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Nested Flexbox</title>
+		<style>
+			
+			p{
+				margin: 0;
+				font-family: Arial;
+				
+			}
+			
+			.flex-13a{
+				display: flex;
+				width:300px;
+				height: 50px;
+			}
+			
+			.element1{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: lightpink;
+				width: 100px;
+			}
+			
+			.box{
+				background-color: black;
+				color: white;
+			}
+			
+			.element2{
+				background-color: lightblue;
+				flex: 1;
+			}
+			
+			.flex-13b{
+				display: flex;
+				width:300px;
+				height: 70px;
+			}
+			
+			.element3{
+				
+				flex: 1;
+				background-color: lightblue;
+			}
+			
+			.element3-2{
+				display: flex;
+				justify-content: space-between;
+			}
+			
+			.row2-item{
+				background-color: black;
+				color: white;
+			}
+			
+			.conteiner{
+				width:400px;
+				border-width: 1px;
+				box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.25);
+				padding-top: 10px;
+				padding-bottom:20px;
+				padding-left: 10px;
+				padding-right: 10px;
+				border-radius: 4px;
+			}
+			
+			.main-section{
+				font-weight: bold;
+				font-size: 18px;
+				color: rgb(140, 140, 140);
+			}
+			
+			.mail{
+				display: flex;
+				align-items: center;
+				margin-bottom: 20px;
+				margin-top: 30px;
+			}
+			
+			.profile-photo{
+				width: 50px;
+				height: 50px;
+				border-radius: 25px;
+				object-fit: cover;
+				margin-right: 6px;
+				
+			}
+			
+			.mail-info{
+				flex: 1;
+			}
+			
+			.first-row{
+				display: flex;
+				justify-content: space-between;
+				margin-bottom: 4px;
+				align-items: center;
+			}
+			
+			.profile-name{
+				font-weight: bold;
+				font-size: 18px;
+			}
+			
+			.time-recived{
+				font-size: 14px;
+				color: rgb(140, 140, 140);
+			}
+			
+			.mail-title{
+				font-size: 16px;
+				font-weight: bold;
+				margin-bottom: 4px;
+			}
+			
+			.main-mail{
+				color: rgb(140, 140, 140);
+				font-size: 16px;
+			}
+			
+			.twitter-post{
+				display: flex;
+				width: 450px;
+			}
+			
+			.user-name{
+				color: rgb(96, 96, 96);
+				font-size: 12px;
+			}
+			
+			.thumbnail-space{
+				height: 80.1px;
+			}
+			
+			.shared-media{
+				display: flex;
+				margin-top: 20px;
+				border-width: 1px;
+				border-style: solid;
+				border-radius: 15px;
+				align-items: center;
+				width: 300px;
+			}
+			
+			.video-thumbnail{
+				width: 60px;
+				border-top-left-radius: 14px;;
+				border-bottom-left-radius: 14px;
+				margin-top: 0px;
+				margin-bottom: 0px;
+				
+			}
+			
+			.video-info{
+				font-size: 14px;
+				margin-left: 20px;
+				margin-right: 20px;
+			}
+			
+			.YT-link{
+				color: rgb(96, 96, 96);
+				font-size: 12px;
+			}
+		</style>
+	</head>
+	<body>
+	
+		<div><h1>13a.</h1>
+			<div class="flex-13a">
+				<div class="element1">
+					<div class="box">
+						<p>item 1</p>
+					</div>
+				</div>
+				<div class="element2">
+				</div>
+			</div>
+		</div>
+		
+		<div><h1>13b.</h1>
+			<div class="flex-13b">
+				<div class="element1">
+				</div>
+				<div class="element3">
+					<p>row1</p>
+					<div class="element3-2">
+						<div class="row2-item">
+							<p>row2</p>
+						</div>
+						<div class="row2-item">
+							<p>row2</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div><h1>13c.</h1>
+			<div class="conteiner">
+				<p class="main-section">ALL INBOXES</p>
+				<div class="mail">
+					<img class="profile-photo" src="pictures/cat1.jpg">
+					<div class="mail-info">
+						<div class="first-row">
+							<p class="profile-name">Chewy Promotions</p>
+							<p class="time-recived">4:58PM</p>
+						</div>
+						<p class="mail-title">Biggest sales of the year!</p>
+						<p class="main-mail">Hey there! We're writing to tell you about our...</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div><h1>13e.</h1>
+			<div class="conteiner">
+				<p class="main-section">ALL INBOXES</p>
+				<div class="mail">
+					<img class="profile-photo" src="pictures/cat1.jpg">
+					<div class="mail-info">
+						<div class="first-row">
+							<p class="profile-name">Chewy Promotions</p>
+							<p class="time-recived">4:58PM</p>
+						</div>
+						<p class="mail-title">Biggest sales of the year!</p>
+						<p class="main-mail">Hey there! We're writing to tell you about our...</p>
+					</div>
+				</div>
+				<div class="mail">
+					<img class="profile-photo" src="pictures/dog1.jpg">
+					<div class="mail-info">
+						<div class="first-row">
+							<p class="profile-name">Best Buy</p>
+							<p class="time-recived">12:32PM</p>
+						</div>
+						<p class="mail-title">Your Best Buy eReceipt</p>
+						<p class="main-mail">Thank you for shopping at Best Buy, here is...</p>
+					</div>
+				</div>
+				<div class="mail">
+					<img class="profile-photo" src="pictures/cat2.jpg">
+					<div class="mail-info">
+						<div class="first-row">
+							<p class="profile-name">Netflix</p>
+							<p class="time-recived">9:00AM</p>
+						</div>
+						<p class="mail-title">Here's what's comming soon to Netflix</p>
+						<p class="main-mail">Brand new movies and shows, old favorites...</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div><h1>13f.</h1>
+			<div class="twitter-post">
+				<div class="image-space">
+					<img class="profile-photo" src="pictures/cat1.jpg">
+				</div>
+				<div class="post-info">
+					<p><b>supersimple.dev </b><span class="user-name">@SuperumpleDev</span></p>
+					<p>What is backend web development? A complete overview. New video is up!</p>
+					<div class="shared-media">
+						<div class="thumbnail-space">
+							<img class="video-thumbnail" src="pictures/dog1.jpg">
+						</div>
+						<div class="video-info">
+							<p class="YT-link">youtube.com</p>
+							<p class="video-title">Backend web development - a complete overview (2021)</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

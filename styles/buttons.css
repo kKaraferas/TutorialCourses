@@ -1,0 +1,167 @@
+.subscribe-button{
+	background-color: rgb(200, 0, 0);
+	color: white;
+	border: none;
+	height: 36px;
+	width: 105px;
+	border-radius: 2px;
+	cursor: pointer;
+	margin-right: 8px;
+}
+
+.join-button{
+	background-color: white;
+	border-color: rgb(41, 118, 211);
+	border-style: solid;
+	border-width: 1px;
+	color: rgb(41, 118, 211);
+	height: 36px;
+	width: 62px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.tweet-button{
+	background-color: rgb(2, 158, 255);
+	color: white;
+	border: none;
+	height: 36px;
+	width: 74px;
+	border-radius: 18px;
+	font-weight: bold;
+	font-size: 15px;
+	cursor: pointer;
+	margin-left: 8px;
+}
+
+.uber-button{
+	background-color: black;
+	color: white;
+	border: none;
+	height: 30px;
+	width: 92px;
+	font-size:10px;
+	cursor: pointer;
+	margin-right: 8px;
+}
+
+.Amazon-button{
+	background-color: rgb(255, 216, 20);
+	border: none;
+	height: 25px;
+	width: 150px;
+	border-radius: 18px;
+	font-size: 12px;
+	cursor: pointer;
+	margin-right: 8px;
+	
+}
+
+.GitHub-button{
+	background-color: rgb(46, 164, 79);
+	border: none;
+	color: white;
+	height: 32px;
+	width: 85px;
+	border-radius: 4px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-right: 8px;
+}
+
+.Bootstrap-button1{
+	background-color: rgb(121, 82, 179);
+	border: none;
+	color: white;
+	height: 32px;
+	width: 90px;
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 10px;
+	cursor: pointer;
+	margin-right: 8px;
+}
+	
+.Bootstrap-button2{
+	background-color: white;
+	border-color: rgb(108, 117, 125);
+	color: rgb(108, 117, 125);
+	border-width: 0.5px;
+	height: 32px;
+	width: 90px;
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 10px;
+	cursor: pointer;
+	margin-right: 8px;
+}
+
+.LinkedIn-button1{
+	background-color: rgb(10, 102, 194);
+	border: none;
+	color: white;
+	height: 32px;
+	width: 220px;
+	border-radius: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-right: 8px;
+}
+
+.LinkedIn-button2{
+	background-color: white;
+	border-color: rgb(10, 102, 194);
+	color: rgb(10, 102, 194);
+	border-width: 1px;
+	border-style: solid;
+	height: 32px;
+	width: 75px;
+	border-radius: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-right: 8px;
+}
+
+.Amazon-button2{
+	background-color: rgb(255, 216, 20);
+	border: none;
+	color: black;
+	height: 27px;
+	width: 110px;
+	border-radius: 16px;
+	font-weight: bold;
+	font-size: 11px;
+	cursor: pointer;
+	margin-right: 6px;
+}
+
+.Amazon-button3{
+	background-color: rgb(255, 164, 28);
+	border: none;
+	color: black;
+	height: 27px;
+	width: 110px;
+	border-radius: 16px;
+	font-weight: bold;
+	font-size: 11px;
+	cursor: pointer;
+	margin-right: 6px;
+}
+
+.title{
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.available{
+	color: rgb(0, 118, 0);
+	font-weight: bold;
+}
+
+.delivery{
+	font-weight: 600;
+}
+
+.return-link{
+	color: rgb(0, 113, 133);
+}

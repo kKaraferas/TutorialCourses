@@ -1,0 +1,177 @@
+.div9a{
+	background-color: red;
+	height: 100px;
+	width: 100px;
+}
+
+.div9b{
+	background-color: green;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+}
+
+.div9c{
+	border-width: 1px;
+	border: solid;
+	padding-bottom: 20px;
+	width: 400px;
+}
+
+.div9d{
+	background-color: rgb(40, 40, 40);
+	width: 350px;
+	padding-left: 16px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 0px;
+}
+
+.text9d-1{
+	color: white;
+	font-size: 26px;
+	margin-bottom: 8px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.text9d-2{
+	color: rgb(140, 140, 140);
+	font-size: 16px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.div9e{
+	width: 300px;
+	margin-bottom: 50px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 4px;
+	padding-right: 8px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+}
+
+.pic9e{
+	width:40px;
+	height: 40px;
+	border-radius: 20px;
+	object-fit: cover;
+	vertical-align: middle;
+	
+}
+
+.text9e{
+	border: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: 2px;
+	outline: none;
+	vertical-align: middle;
+}
+
+.button9e{
+	padding-bottom:	6px;
+	padding-top: 	6px;
+	padding-left:	14px;	
+	padding-right:	14px;
+	border-radius:	20px;
+	border: 		none;
+	background-color: rgb(29, 161, 242);
+	color:			white;
+	font-size:		12px;
+	font-weight:	bold;
+	vertical-align: middle;
+}
+
+.div9f{
+	display: inline-block;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+	margin-right: 12px;
+}
+
+.pic9f{
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	margin-bottom: 0px;
+}
+
+.text9f-1{
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 8px;
+	margin-bottom: 0px;
+	margin-left: 4px;
+}
+
+.text9f-2{
+	margin-top: 4px;
+	margin-bottom: 0px;
+	font-size: 14px;
+	color: rgb(100, 100, 100);
+	margin-left: 4px;
+}
+
+.button9f{
+	margin-top: 8px;
+	border: none;
+	border-radius: 4px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 18px;
+	padding-right: 18px;
+	background-color: rgb(28, 100, 240);
+	color: white;
+	margin-left: 4px;
+	margin-bottom: 8px;
+}
+
+.Google-logo{
+	text-align: center;
+}
+
+.G-logo{
+	widht: 100px;
+	height:300px;
+}
+
+.Google-search{
+	margin-top: -80px;
+	text-align: center;
+}
+
+.G-search{
+	width: 650px;
+	padding-bottom: 14px;
+	padding-top: 14px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: none;
+	border-radius: 40px;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.35);
+	font-size: 21px;
+	font-family: Arial;
+	outline: none;
+	margin-bottom: 0px;
+}
+
+.Google-buttons{
+	margin-top: 40px;
+	text-align: center;
+}
+
+.G-button1, .G-button2{
+	border: none;
+	background-color: rgb(240, 240, 240);
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 26px;
+	padding-right: 26px;
+	font-size: 20px;
+	margin-right: 20px;
+}
